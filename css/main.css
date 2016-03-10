@@ -1,0 +1,139 @@
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 209px;
+  border: 2px solid black; }
+
+input#bojack, input#dexter, input#eliza, input#fries, input#goku, input#heart, input#lsp, input#magic, input#meatball, input#otto, input#pinky, input#rick, input#shake, input#skeeter, input#snarf, input#vegeta {
+  margin-top: 20px;
+  width: 100px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-appearance: none;
+  outline: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Cabin', sans-serif; }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-family: 'Pacifico', cursive; }
+
+nav {
+  display: flex; }
+  nav a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    padding: 20px; }
+  nav .brand-logo {
+    flex: 3;
+    padding: 20px; }
+
+input#bojack:checked {
+  background-image: url("../img/bojack.jpg"); }
+
+input#bojack:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#dexter:checked {
+  background-image: url("../img/dexter.jpg"); }
+
+input#dexter:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#eliza:checked {
+  background-image: url("../img/eliza.jpg"); }
+
+input#eliza:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#fries:checked {
+  background-image: url("../img/fries.jpg"); }
+
+input#fries:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#goku:checked {
+  background-image: url("../img/goku.jpg"); }
+
+input#goku:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#heart:checked {
+  background-image: url("../img/heart.jpg"); }
+
+input#heart:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#lsp:checked {
+  background-image: url("../img/lsp.jpg"); }
+
+input#lsp:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#magic:checked {
+  background-image: url("../img/magic.jpg"); }
+
+input#magic:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#meatball:checked {
+  background-image: url("../img/meatball.jpg"); }
+
+input#meatball:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#otto:checked {
+  background-image: url("../img/otto.jpg"); }
+
+input#otto:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#pinky:checked {
+  background-image: url("../img/pinky.jpg"); }
+
+input#pinky:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#rick:checked {
+  background-image: url("../img/rick.jpg"); }
+
+input#rick:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#shake:checked {
+  background-image: url("../img/shake.jpg"); }
+
+input#shake:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#skeeter:checked {
+  background-image: url("../img/skeeter.jpg"); }
+
+input#skeeter:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#snarf:checked {
+  background-image: url("../img/snarf.jpg"); }
+
+input#snarf:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+input#vegeta:checked {
+  background-image: url("../img/vegeta.jpg"); }
+
+input#vegeta:not(:checked) {
+  background-image: url("../img/c-logo.jpg"); }
+
+/*# sourceMappingURL=main.css.map */
